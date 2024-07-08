@@ -22,3 +22,15 @@ h1 {
   display: block;
   text-align: center;
 }
+
+/*
+using pseudo element like hover, we are selecting any 'a' on the navbar
+then applying the 'hover' animation which has a darker color
+ */
+.navbar a:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+.navbar li {
+  display: inline-block;
+}
