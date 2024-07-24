@@ -19,12 +19,12 @@ h1 {
   color: whitesmoke;
   text-decoration: none;
   padding: 15px;
-  display: block;
+  /* display: block; */
   text-align: center;
 }
 
 .navbar li {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 /*
