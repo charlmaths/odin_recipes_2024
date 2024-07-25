@@ -11,16 +11,16 @@ h1 {
 
 .navbar ul {
   /* This will remove any bullet points */
-  list-style-type: none;
-  background-color: grey;
+  /* list-style-type: none;
+  background-color: grey; */
 }
 
 .navbar a {
-  color: whitesmoke;
+  /* color: whitesmoke;
   text-decoration: none;
-  padding: 15px;
+  padding: 15px; */
   /* display: block; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .navbar li {
@@ -33,5 +33,5 @@ then applying the 'hover' animation which has a darker color
 */
 
 .navbar a:hover {
-  background-color: rgb(58, 58, 58);
+  /* background-color: rgb(58, 58, 58); */
 }
