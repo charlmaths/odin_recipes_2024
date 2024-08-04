@@ -12,6 +12,22 @@ h1 {
 .grid-container {
   display: grid;
 }
+
+.grid-item-title {
+}
+
+.grid-item-nav {
+}
+
+.grid-item-img {
+}
+
+.grid-item-recipe {
+}
+
+.grid-item-footer {
+}
+
 .navbar ul {
   /* This will remove any bullet points */
   /* list-style-type: none;
