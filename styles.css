@@ -9,6 +9,9 @@ h1 {
   text-align: center;
 }
 
+.grid-container {
+  display: grid;
+}
 .navbar ul {
   /* This will remove any bullet points */
   /* list-style-type: none;
