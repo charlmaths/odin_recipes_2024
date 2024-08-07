@@ -7,7 +7,7 @@
 }
 
 h1 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .grid-container {
@@ -17,6 +17,8 @@ h1 {
 }
 
 .grid-item-title {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
 .grid-item-nav {
