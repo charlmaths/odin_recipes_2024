@@ -22,9 +22,12 @@ h1 {
 }
 
 .grid-item-nav {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
 .grid-item-img {
+  /* grid-column: span 1; */
 }
 
 .grid-item-recipe {
