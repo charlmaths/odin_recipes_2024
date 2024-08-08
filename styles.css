@@ -49,6 +49,14 @@ then applying the 'hover' animation which has a darker color
   /* background-color: rgb(58, 58, 58); */
 }
 
+.grid-item-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-gap: 15px;
+}
+
 .grid-item-img {
 }
 
