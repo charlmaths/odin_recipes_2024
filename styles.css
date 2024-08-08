@@ -58,9 +58,16 @@ then applying the 'hover' animation which has a darker color
 }
 
 .grid-item-img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  padding: 20px;
 }
 
 .grid-item-recipe {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 20px;
 }
 
 .grid-item-footer {
