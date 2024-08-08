@@ -71,4 +71,9 @@ then applying the 'hover' animation which has a darker color
 }
 
 .grid-item-footer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
 }
