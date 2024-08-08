@@ -13,19 +13,14 @@
   padding: 10px;
 }
 
-.grid-item-title {
+header.grid-item-title {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
-.grid-item-nav {
-}
-
-.grid-item-img {
-}
-
-.grid-item-recipe {
-}
-
-.grid-item-footer {
+nav.grid-item-nav {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
 .navbar ul {
@@ -50,7 +45,15 @@
 using pseudo element like hover, we are selecting any 'a' on the navbar
 then applying the 'hover' animation which has a darker color
 */
-
 .navbar a:hover {
   /* background-color: rgb(58, 58, 58); */
+}
+
+.grid-item-img {
+}
+
+.grid-item-recipe {
+}
+
+.grid-item-footer {
 }
