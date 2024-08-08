@@ -27,10 +27,13 @@ h1 {
 }
 
 .grid-item-img {
-  /* grid-column: span 1; */
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .grid-item-recipe {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 .grid-item-footer {
