@@ -23,10 +23,10 @@ nav.grid-item-nav {
   grid-column-end: -1;
 }
 
-.navbar ul {
+nav ul {
   /* This will remove any bullet points */
-  /* list-style-type: none;
-  background-color: grey; */
+  list-style-type: none;
+  /* background-color: grey; */
 }
 
 .navbar a {
