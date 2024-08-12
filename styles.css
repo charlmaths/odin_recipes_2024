@@ -34,7 +34,8 @@ nav ul {
 nav a {
   /* color: whitesmoke; */
   text-decoration: none;
-  padding: 15px;
+  padding: 10px; /* Padding around anchor links */
+  display: block; /* This will make sure that display of each anchor link is block element so that the 'whole area of each link is clickable' */
 }
 
 .navbar li {
