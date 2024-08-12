@@ -28,13 +28,13 @@ nav ul {
   list-style-type: none;
   /* background-color: grey; */
   display: flex;
+  justify-content: center;
 }
 
 nav a {
   /* color: whitesmoke; */
   text-decoration: none;
   padding: 15px;
-  justify-content: center;
 }
 
 .navbar li {
