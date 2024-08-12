@@ -28,7 +28,7 @@ nav ul {
   list-style-type: none;
   /* background-color: grey; */
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 nav a {
