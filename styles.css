@@ -27,13 +27,13 @@ nav ul {
   /* This will remove any bullet points */
   list-style-type: none;
   /* background-color: grey; */
+  display: flex;
 }
 
 nav a {
   /* color: whitesmoke; */
   text-decoration: none;
   padding: 15px;
-  display: flex;
   justify-content: center;
 }
 
