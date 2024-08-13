@@ -71,8 +71,8 @@ then applying the 'hover' animation which has a darker color
 }
 
 .grid-item-img img {
-  width: 100%; /* This will adhyst the image size according to the screen size */
-  height: auto; /* This will adhyst the image size according to the screen size */
+  width: 100%; /* This will adjust the image size according to the screen size */
+  height: 100%; /* This will adjust the image size according to the screen size */
   display: block;
 }
 
