@@ -61,8 +61,19 @@ then applying the 'hover' animation which has a darker color
 .grid-item-img {
   grid-column-start: 1;
   grid-column-end: 2;
-  text-align: center;
   padding: 20px;
+  width: 100%;
+  /* height: 200px; */ /*We need to get rid to increase size of grid container for images*/
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid-item-img img {
+  width: 500px;
+  height: auto;
+  display: block;
 }
 
 .grid-item-recipe {
