@@ -59,10 +59,28 @@ then applying the 'hover' animation which has a darker color
   min-height: 50vh;
 }
 
+/* Create row selector to manipulate images and descriptions */
+.grid-item-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.grid-item-img,
+.grid-item-recipe {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
 .grid-item-img {
   grid-column-start: 1;
   grid-column-end: 2;
-
   max-width: 500px;
   max-height: 500px;
   min-width: 200px;
@@ -72,15 +90,6 @@ then applying the 'hover' animation which has a darker color
   align-items: center;
   overflow: hidden;
 }
-
-/* .grid-item-img,
-.grid-item-recipe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 500px;
-  width: 100%;
-} */
 
 .grid-item-img img {
   width: 100%;
