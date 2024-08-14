@@ -75,6 +75,7 @@ then applying the 'hover' animation which has a darker color
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   max-width: 500px;
 }
 
