@@ -62,7 +62,7 @@ then applying the 'hover' animation which has a darker color
 .grid-item-img {
   grid-column-start: 1;
   grid-column-end: 2;
-  padding: 20px;
+
   max-width: 500px;
   max-height: 500px;
   min-width: 200px;
@@ -73,14 +73,14 @@ then applying the 'hover' animation which has a darker color
   overflow: hidden;
 }
 
-.grid-item-img,
+/* .grid-item-img,
 .grid-item-recipe {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 500px;
   width: 100%;
-}
+} */
 
 .grid-item-img img {
   width: 100%;
